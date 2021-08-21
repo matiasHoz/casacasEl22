@@ -1,0 +1,106 @@
+.encabezado {
+	display: flex;
+	flex-direction: row;
+	background-color: #FC2525;
+}
+
+.encabezado h1 {
+	font-family: 'Righteous', cursive;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	margin: 10px;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 180px 180px 180px 180px 180px;
+    list-style: none;
+}
+
+.menu li {
+	font-family: 'Space Grotesk', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.menu li:hover {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.presentacion {
+	display: flex;
+	flex-direction: row;
+}
+
+.imagen {
+	height: 471px;
+	width: 1000px;
+	border-style: solid;
+	border-color: #FC2525;
+}
+
+.presentacion p {
+	background-color: black;
+	font-size: 42px;
+	color: white;
+	font-family: 'Space Grotesk', sans-serif;
+	padding: 15px;
+}
+
+.camisetas h2 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.fotos {
+	display: grid;
+	grid-template-columns: 340px 340px 340px 340px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.camisetas__foto {
+	height: 360px;
+	width: 300px;
+	border-style: solid;
+	border-color: black;
+}
+
+.camisetas__foto:hover {
+	opacity: 0.5;
+}
+
+.pie {
+	background-color: black;
+	border-style: solid;
+	border-top-color: #FC2525;
+	padding: 40px;
+}
+
+.orden {
+	display: grid;
+	grid-template-columns: 180px 180px 180px;
+	justify-content: center;
+}
+
+.pie li {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.pie li:hover {
+	color: #FC2525;
+	cursor: pointer;
+}
