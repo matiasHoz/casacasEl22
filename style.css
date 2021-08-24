@@ -32,6 +32,9 @@
 	cursor: pointer;
 }
 
+/* Termina el menu ----------*/
+/* Comienza el contenido principal --------*/
+
 .presentacion {
 	display: flex;
 	flex-direction: row;
@@ -65,20 +68,28 @@
 .fotos {
 	display: grid;
 	grid-template-columns: 340px 340px 340px 340px;
-	margin: 5px;
 	padding: 10px;
 }
 
+.fotos h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
 .camisetas__foto {
-	height: 360px;
-	width: 300px;
+	height: 340px;
+	width: 280px;
 	border-style: solid;
 	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
 }
 
 .camisetas__foto:hover {
 	opacity: 0.5;
 }
+
+/* Termina el contenido principal --------*/
 
 .pie {
 	background-color: black;

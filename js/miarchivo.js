@@ -26,6 +26,12 @@ function productos(){
 			calcularPrecio();
 			calcularPrecio();
 		}
+		if (pregunta == 4){
+			calcularPrecio();
+			calcularPrecio();
+			calcularPrecio();
+			calcularPrecio();
+		}
 	}
 }
 
