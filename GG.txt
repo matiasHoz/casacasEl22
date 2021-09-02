@@ -1,0 +1,124 @@
+function solicitarTalle(){
+	let talle = prompt("Ingrese su talle");
+    alert("Veremos cuales son las mejores opciones para su talle " + talle);
+}
+
+solicitarTalle();
+
+function productos(){
+	let pregunta = prompt("¿Cuantos productos tiene en el carrito?"); {
+		if (pregunta == 1){
+			calcularPrecio();
+		}
+		if (pregunta == 2){
+			calcularPrecio();
+			calcularPrecio();
+		}
+		if (pregunta == 3){
+			calcularPrecio();
+			calcularPrecio();
+			calcularPrecio();
+		}
+		if (pregunta == 4){
+			calcularPrecio();
+			calcularPrecio();
+			calcularPrecio();
+			calcularPrecio();
+		}
+	}
+}
+
+
+productos();
+
+function calcularPrecio(){
+	let descuento = 500;
+	let precio1 = prompt("Precio de su camiseta seleccionada");
+	resultado = precio1 - descuento;
+	alert("El precio de su camiseta, teniendo en cuenta el descuento de este mes, es de " + resultado);
+}
+
+
+
+
+
+
+/*Datos ingresados */
+var datoIngresado1 = prompt("¿Cuantos años tienes?");
+var datoIngresado2 = prompt("¿De que cuadro sos?");
+var datoIngresado3 = prompt("¿Cuál es tu talle?");
+
+/*Almacenar datos */
+localStorage.setItem("edad", datoIngresado1);
+localStorage.setItem("cuadro", datoIngresado2);
+localStorage.setItem("talle", datoIngresado3);
+
+/*Acceder a la informacion */
+datoIngresado1 = localStorage.getItem("edad");
+datoIngresado2 = localStorage.getItem("cuadro");
+datoIngresado3 = localStorage.getItem("talle");
+
+/*Mostrar en la consola */
+console.log("edad " + datoIngresado1);
+console.log("cuadro " + datoIngresado2);
+console.log("talle " + datoIngresado3);
+
+
+const datos = [{dato:"edad", ingresado: datoIngresado1}
+               {dato: "cuadro", ingresado: datoIngresado2}
+               {dato: "talle", ingresado: datoIngresado3}]
+
+const guardarLocal = (clave, valor) => { localStorage.setItem(clave, valor) };
+
+guardarLocal("listaDatos", JSON.stringify(datos));
+
+console.log(guardarLocal);
+
+
+
+
+
+/*Elemento constructor */
+function camiseta(equipo, año, marca){
+	this.equipo = equipo;
+	this.año = año;
+	this.marca = marca;
+	this.present = function() {console.log("Esta es la camiseta del " + this.equipo)}
+	this.year = function() {console.log("Es del año " + this.año)}
+	this.marketing = function() {console.log("Marca " + this.marca)}
+}
+
+/*Nuevos elementos */
+const camiseta1 = new camiseta("PSG", 2020, "Nike");
+const camiseta2 = new camiseta("Juventus", 2021, "Adidas");
+const camiseta3 = new camiseta("Barcelona", 2021, "Nike");
+const camiseta4 = new camiseta("Atl Madrid", 2021, "Nike");
+
+/*Resultados del console */
+camiseta1.present();
+camiseta1.year();
+camiseta1.marketing();
+camiseta2.present();
+camiseta2.year();
+camiseta2.marketing();
+camiseta3.present();
+camiseta3.year();
+camiseta3.marketing();
+camiseta4.present();
+camiseta4.year();
+camiseta4.marketing();
+
+/*Array de ligas presentes en el sitio */
+const miArray = ["Francia", "Italia", "España", "Argentina", "Brasil", "Holanda", "Alemania", "Inglaterra", "Uruguay"];
+/*Sumar a Italia con Argentina */
+let campeones = miArray[1] + miArray[3];
+/*Agregar otra liga */
+miArray.push("MLS");
+/*Mostrar los campeones del 2021 */
+console.log(campeones);
+/*Mostrar la cantidad de ligas */
+console.log(miArray.length);
+/*Mostrar cada liga */
+console.log(miArray.toString());
+/*Mostrar cada liga separada por un "-" */
+console.log(miArray.join("-"));
