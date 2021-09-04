@@ -122,3 +122,12 @@ console.log(miArray.length);
 console.log(miArray.toString());
 /*Mostrar cada liga separada por un "-" */
 console.log(miArray.join("-"));
+
+
+let contenedor = document.createElement("h3");
+
+contenedor.innerHTML = `<h3> nombre: ${camiseta1.nombre}</h3>
+                        <h3> precio: ${camiseta1.precio} + 100 </h3>`;
+
+document.fotos.appendChild(contenedor);
+

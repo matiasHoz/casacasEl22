@@ -1,10 +1,10 @@
-.encabezado {
+#encabezado {
 	display: flex;
 	flex-direction: row;
 	background-color: #FC2525;
 }
 
-.encabezado h1 {
+#encabezado h1 {
 	font-family: 'Righteous', cursive;
 	color: white;
 	text-shadow: 2px 2px 2px black;
@@ -13,13 +13,13 @@
 	cursor: pointer;
 }
 
-.menu {
+#menu {
 	display: grid;
 	grid-template-columns: 180px 180px 180px 180px 180px;
     list-style: none;
 }
 
-.menu li {
+#menu li {
 	font-family: 'Space Grotesk', sans-serif;
 	color: white;
 	text-shadow: 2px 2px 2px black;
@@ -27,7 +27,7 @@
 	padding-top: 30px;
 }
 
-.menu li:hover {
+#menu li:hover {
 	font-size: 20px;
 	cursor: pointer;
 }
@@ -35,7 +35,7 @@
 /* Termina el menu ----------*/
 /* Comienza el contenido principal --------*/
 
-.presentacion {
+#presentacion {
 	display: flex;
 	flex-direction: row;
 }
@@ -47,7 +47,7 @@
 	border-color: #FC2525;
 }
 
-.presentacion p {
+#presentacion p {
 	background-color: black;
 	font-size: 42px;
 	color: white;
@@ -71,6 +71,18 @@
 	padding: 10px;
 }
 
+#fotos1 {
+	display: grid;
+	grid-template-columns: 340px 340px 340px 340px;
+	padding: 10px;
+}
+
+#fotos2 {
+	display: grid;
+	grid-template-columns: 340px 340px 340px 340px;
+	padding: 10px;
+}
+
 .fotos h3 {
 	font-size: 20px;
 	text-align: center;
@@ -87,6 +99,26 @@
 
 .camisetas__foto:hover {
 	opacity: 0.5;
+}
+
+#camisetas1{
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+#camisetas2 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
 }
 
 /* Termina el contenido principal --------*/
