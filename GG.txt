@@ -131,3 +131,92 @@ contenedor.innerHTML = `<h3> nombre: ${camiseta1.nombre}</h3>
 
 document.fotos.appendChild(contenedor);
 
+
+/*Lista de objetos seccion 1 */
+const seccion1 = [{id: 1, nombre: "PSG", precio: 2300},
+                  {id: 2, nombre: "Juventus", precio: 2800},
+                  {id: 3, nombre: "Barcelona", precio: 2500},
+                  {id: 4, nombre: "Atletico de Madrid", precio:2900}];
+
+/*Creando un elemento a partir de objetos */
+for (const producto of seccion1) {
+    let nuevosDatos1 = document.getElementById("fotos1");
+	let contenedor = document.createElement("div");
+	contenedor.innerHTML = `<h3> ID: ${producto.id}</h3>
+	                        <p> nombre: ${producto.nombre} </p>
+	                        <p> precio: ${producto.precio + 400}  </p>`;
+	nuevosDatos1.appendChild(contenedor);
+}
+
+
+/*Lista de objetos seccion 2 */
+const seccion2 = [{id: 5, nombre: "River", precio: 3000},
+                  {id: 6, nombre: "Boca", precio: 3000},
+                  {id: 7, nombre: "Rosario Central", precio: 2200},
+                  {id: 8, nombre: "Racing", precio:3100}];
+
+/*Creando un elemento a partir de los objetos */
+for (const producto of seccion2) {
+	let nuevosDatos = document.getElementById("fotos2");
+	let contenedor = document.createElement("div");
+	contenedor.innerHTML = `<h3> ID: ${producto.id} </h3>
+	                        <p> nombre: ${producto.nombre} </p>
+	                        <p> precio: ${producto.precio + 1000}  </p>`;
+	nuevosDatos.appendChild(contenedor);
+}
+
+
+/*Eliminar subtitulo "Europa" */
+let subtitulo1 = document.getElementById("eur");
+subtitulo1.parentNode.removeChild(subtitulo1);
+
+/*Eliminar subtitulo "Futbol Argentino" */
+let subtitulo2 = document.getElementById("arg");
+subtitulo2.parentNode.removeChild(subtitulo2);
+
+/*Eliminar subtitulo "Talle S" */
+let subtitulo3 = document.getElementById("sim");
+subtitulo3.parentNode.removeChild(subtitulo3);
+
+/*Agregar nuevo subtitulo */
+let subtituloNuevo = document.getElementById("camisetas1");
+let elementoHTML = document.createElement("h2");
+elementoHTML.textContent = "LIGA ARGENTINA";
+subtituloNuevo.appendChild(elementoHTML);
+
+/*Agregar nuevo subtitulo */
+let subtituloNuevo1 = document.getElementById("camisetas2");
+let elementoHTML1 = document.createElement("h2");
+elementoHTML1.textContent = "TALLE 1";
+subtituloNuevo1.appendChild(elementoHTML1);
+
+/*Agregar nueva opcion al menu "PROMOS" */
+let opcionNueva = document.getElementById("menu");
+let contenido = document.createElement("li");
+contenido.textContent = "PROMOS";
+opcionNueva.appendChild(contenido);
+
+/*Agregar nueva opcion al menu "BRASILEIRAIO" */
+let opcionNueva1 = document.getElementById("menu");
+let contenido1 = document.createElement("li");
+contenido1.textContent = "BRASILEIRAO";
+opcionNueva1.appendChild(contenido1);
+
+/*Agregar nueva opcion al menu "EUROPA" */
+let opcionNueva2 = document.getElementById("menu");
+let contenido2 = document.createElement("li");
+contenido2.textContent = "EUROPA";
+opcionNueva2.appendChild(contenido2);
+
+/*Agregar nueva opcion al menu "MLS" */
+let opcionNueva3 = document.getElementById("menu");
+let contenido3 = document.createElement("li");
+contenido3.textContent = "MLS";
+opcionNueva3.appendChild(contenido3);
+
+/*Agregar nueva opcion al menu "LIGA PROFESIONAL" */
+let opcionNueva4 = document.getElementById("menu");
+let contenido4 = document.createElement("li");
+contenido4.textContent = "LIGA PROFESIONAL";
+opcionNueva4.appendChild(contenido4);
+

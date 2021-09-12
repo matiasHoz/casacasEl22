@@ -2,6 +2,8 @@
 	display: flex;
 	flex-direction: row;
 	background-color: #FC2525;
+	border-bottom-style: solid;
+	border-bottom-color: white;
 }
 
 #encabezado h1 {
@@ -19,16 +21,24 @@
     list-style: none;
 }
 
-#menu li {
+#menu li a{
 	font-family: 'Space Grotesk', sans-serif;
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	margin: 0 auto;
 	padding-top: 30px;
+	text-decoration: none;
 }
 
-#menu li:hover {
-	font-size: 20px;
+#menu h5 {
+	font-family: 'Space Grotesk', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+#menu h5:hover {
+	color: #0F0194;
 	cursor: pointer;
 }
 
@@ -65,6 +75,26 @@
     border-bottom-color: #FC2525;
 }
 
+#camisetas1 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+#camisetas2 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
 .fotos {
 	display: grid;
 	grid-template-columns: 340px 340px 340px 340px;
@@ -77,10 +107,20 @@
 	padding: 10px;
 }
 
+#fotos1 h3{
+	font-size: 20px;
+	text-align: center;
+}
+
 #fotos2 {
 	display: grid;
 	grid-template-columns: 340px 340px 340px 340px;
 	padding: 10px;
+}
+
+#fotos2 h3 {
+	font-size: 20px;
+	text-align: center;
 }
 
 .fotos h3 {
@@ -99,26 +139,6 @@
 
 .camisetas__foto:hover {
 	opacity: 0.5;
-}
-
-#camisetas1{
-	margin: 20px;
-	font-family: 'Righteous', cursive;
-	border-bottom: 1px solid white;
-	border-bottom-width: 50px;
-	border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #FC2525;
-}
-
-#camisetas2 {
-	margin: 20px;
-	font-family: 'Righteous', cursive;
-	border-bottom: 1px solid white;
-	border-bottom-width: 50px;
-	border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #FC2525;
 }
 
 /* Termina el contenido principal --------*/
@@ -146,4 +166,59 @@
 .pie li:hover {
 	color: #FC2525;
 	cursor: pointer;
+}
+
+.body2 {
+	background-color: #FC2525;
+}
+
+#encabezado1 {
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+#encabezado1 h1 {
+	font-family: 'Righteous', cursive;
+	color: #FC2525;
+	text-shadow: 2px 2px 2px black;
+	margin: 10px;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+#encabezado1 a {
+	color: #FC2525;
+}
+
+.retro {
+	display: grid;
+	grid-template-columns: 320px 320px 320px 320px;
+	justify-content: center;
+}
+
+.tituloretro {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card-img-top {
+	height: 200px;
+}
+
+.card-img-top:hover {
+	opacity: 0.5;
+}
+
+.card {
+	box-shadow: 4px 4px 4px black;
 }
