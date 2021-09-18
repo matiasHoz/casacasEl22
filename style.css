@@ -45,6 +45,15 @@
 /* Termina el menu ----------*/
 /* Comienza el contenido principal --------*/
 
+#descrip {
+	text-align: center;
+	font-size: 18px;
+}
+
+#colecciones {
+	text-align: center;
+}
+
 #presentacion {
 	display: flex;
 	flex-direction: row;
@@ -66,6 +75,26 @@
 }
 
 .camisetas h2 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.camisetas3 h2 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.camisetas4 h2 {
 	margin: 20px;
 	font-family: 'Righteous', cursive;
 	border-bottom: 1px solid white;
@@ -141,6 +170,34 @@
 	opacity: 0.5;
 }
 
+.form {
+	width: 80%;
+	margin: auto;
+	border-style: solid;
+	border-color: #888888;
+	padding: 20px;
+}
+
+#registro {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.form .btn {
+	background-color: #FC2525;
+	border-style: solid;
+	border-color: black;
+}
+
+.form .btn:hover {
+	background-color: #CD0808;
+}
+
 /* Termina el contenido principal --------*/
 
 .pie {
@@ -172,15 +229,15 @@
 	background-color: #FC2525;
 }
 
-#encabezado1 {
+.encabezado2 {
 	display: flex;
 	flex-direction: row;
 	background-color: white;
 	border-bottom-style: solid;
-	border-bottom-color: black;
+	border-bottom-color: white;
 }
 
-#encabezado1 h1 {
+.encabezado2 h1 {
 	font-family: 'Righteous', cursive;
 	color: #FC2525;
 	text-shadow: 2px 2px 2px black;
@@ -189,8 +246,27 @@
 	cursor: pointer;
 }
 
-#encabezado1 a {
+.menu2 {
+	display: grid;
+	grid-template-columns: 180px 180px 180px 180px 180px;
+    list-style: none;
+}
+
+.menu2 li a {
+	text-decoration: none;
+}
+
+.menu2 li a h5{
+	font-family: 'Space Grotesk', sans-serif;
 	color: #FC2525;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+.menu2 li a h5:hover {
+	color: #0F0194;
+	cursor: pointer;
 }
 
 .retro {
