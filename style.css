@@ -198,6 +198,14 @@
 	background-color: #CD0808;
 }
 
+#boton {
+	margin: 10px;
+	color: white;
+	background-color: #FC2525;
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+}
+
 /* Termina el contenido principal --------*/
 
 .pie {

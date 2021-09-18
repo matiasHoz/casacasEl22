@@ -192,7 +192,8 @@ pregunta();
 /* Nueva opcion al menu */
 $("#menu").prepend("<h5> PRE-VENTA </h5>");
 
-$("#menu").append(`<button id="boton"> MÁS INFO </button`);
+/* Nuevo botón de "Aviso" */
+$(".camisetas4").append(`<button id="boton"> AVISO </button`);
 
 /* Nuevo subtitulo */
 $(".camisetas3").prepend(`<br> <h2 id="colecciones"> COLECCIONES </h2`);
@@ -223,9 +224,10 @@ $("main").append(`<h2 id="registro">REGISTRATE</h2>
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Quiero que me lleguen las novedades.</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary submit">Enviar</button>
 </form>
 <br>`);
+
 
 
 /*Asociar eventos a los elementos -----------------------------*/
@@ -332,13 +334,27 @@ $("#remera20").on("click", function () {
 /*Envio de formulario */
 $(".form").submit("submit", function(e) {
     e.preventDefault();
-    alert("Los datos se han enviado");
+    alert("Los datos se han guardado.");
 })
 
-/*Click en el botón "Mas info" */
-$("#boton").on("click", function () {
-    $("#boton").append(`<h2> HOLA </h2>`)
+/*Click en el botón "Enviar" */
+$(".submit").one("click", function() {
+    $(".form").append(`<p> ¡Gracias por registrarte! </p>`);
 })
+
+/*Click en el botón "Aviso" */
+$("#boton").one("click", function () {
+    $("#boton").append(`<p id="aviso"> El stock se actualiza cada semana </p>`);
+})
+
+
+
+
+
+
+
+             
+             
 
 
 

@@ -466,3 +466,10 @@ camisetaInter.addEventListener ("click", casaca20);
 function casaca20() {
     alert("La camiseta del " + camiseta20.nombre + " " + "cuesta " + "$" + camiseta20.precio);
 }
+
+
+
+
+$("#boton").one("dblclick", function() {
+    $("#aviso").remove();
+})
