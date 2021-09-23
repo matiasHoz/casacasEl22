@@ -473,3 +473,18 @@ function casaca20() {
 $("#boton").one("dblclick", function() {
     $("#aviso").remove();
 })
+
+
+
+
+
+
+const URLGET4 = "https://jsonplaceholder.typicode.com/users";
+
+
+$(".form").submit(function() {
+    $.post(URLGET4, function (data, status) {
+        console.log(data);
+        console.log(status);
+    })
+})

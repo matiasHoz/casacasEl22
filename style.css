@@ -104,7 +104,7 @@
     border-bottom-color: #FC2525;
 }
 
-#camisetas1 {
+.camisetas1 {
 	margin: 20px;
 	font-family: 'Righteous', cursive;
 	border-bottom: 1px solid white;
@@ -114,7 +114,37 @@
     border-bottom-color: #FC2525;
 }
 
-#camisetas2 {
+.camisetas2 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.camisetas3 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.camisetas4 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.camisetas5 {
 	margin: 20px;
 	font-family: 'Righteous', cursive;
 	border-bottom: 1px solid white;
@@ -199,6 +229,43 @@
 }
 
 #boton {
+	margin: 10px;
+	color: white;
+	background-color: #FC2525;
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+}
+
+#info {
+	margin: 10px;
+	color: white;
+	background-color: #FC2525;
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+}
+
+#info p {
+	display: flex;
+	flex-direction: row;
+}
+
+#info1 {
+	margin: 10px;
+	color: white;
+	background-color: #FC2525;
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+}
+
+#info2 {
+	margin: 10px;
+	color: white;
+	background-color: #FC2525;
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+}
+
+#info3 {
 	margin: 10px;
 	color: white;
 	background-color: #FC2525;

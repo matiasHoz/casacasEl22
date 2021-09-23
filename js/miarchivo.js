@@ -193,7 +193,19 @@ pregunta();
 $("#menu").prepend("<h5> PRE-VENTA </h5>");
 
 /* Nuevo botón de "Aviso" */
-$(".camisetas4").append(`<button id="boton"> AVISO </button`);
+$(".camisetas4").append(`<button id="boton"> AVISO </button>`);
+
+/*Contacto 1 */
+$(".camisetas3").append(`<button id="info"> CONTACTO VENDEDOR 1 </button>`);
+
+/*Contacto 2 */
+$(".camisetas1").append(`<button id="info1"> CONTACTO VENDEDOR 2 </button>`);
+
+/*Contacto 3 */
+$(".camisetas2").append(`<button id="info2"> CONTACTO VENDEDOR 3 </button>`);
+
+/*Contacto 4 */
+$(".camisetas5").append(`<button id="info3"> CONTACTO VENDEDOR 4 </button`);
 
 /* Nuevo subtitulo */
 $(".camisetas3").prepend(`<br> <h2 id="colecciones"> COLECCIONES </h2`);
@@ -342,10 +354,101 @@ $(".submit").one("click", function() {
     $(".form").append(`<p> ¡Gracias por registrarte! </p>`);
 })
 
+
 /*Click en el botón "Aviso" */
 $("#boton").one("click", function () {
     $("#boton").append(`<p id="aviso"> El stock se actualiza cada semana </p>`);
 })
+
+/*Doble click para desaparecer */
+$("#boton").one("dblclick", function () {
+    $("#aviso").fadeOut();
+})
+
+
+/*Aplicar AJAX ------------------------------------------*/ 
+/*Link al primer ID del JSON */
+const URLGET = "https://jsonplaceholder.typicode.com/users/1"; 
+
+/*Darle click al primer contacto */
+$("#info").one("click", function () { 
+    $.get(URLGET, function (data, status) {
+        console.log(data);
+        console.log(status);
+        var JSON1 = JSON.stringify(data.name);
+        var JSON2 = JSON.stringify(data.email);
+        $("#info").append(`<div class="contacto1"> ${JSON1} </div>`);
+        $("#info").append(`<div class="contacto1"> ${JSON2} </div>`);
+    })
+})
+
+/*Doble click al contacto 1 */
+$("#info").one("dblclick", function () {
+    $(".contacto1").fadeOut();
+})
+
+/*Link al segundo ID del JSON */
+const URLGET1 = "https://jsonplaceholder.typicode.com/users/2";
+
+/*Darle click al segundo contacto */
+$("#info1").one("click", function () {
+    $.get(URLGET1, function (data, status) {
+        console.log(data);
+        console.log(status);
+        var JSON3 = JSON.stringify(data.name);
+        var JSON4 = JSON.stringify(data.email);
+        $("#info1").append(`<div class="contacto2"> ${JSON3} </div>`);
+        $("#info1").append(`<div class="contacto2"> ${JSON4} </div)`);
+    })
+})
+
+/*Doble click al contacto 2 */
+$("#info1").one("dblclick", function () {
+    $(".contacto2").fadeOut();
+})
+
+/*Link al tercer ID del JSON */
+const URLGET2 = "https://jsonplaceholder.typicode.com/users/3";
+
+/*Darle click al tercer contacto */
+$("#info2").one("click", function () {
+    $.get(URLGET2, function (data, status) {
+        console.log(data);
+        console.log(status);
+        var JSON5 = JSON.stringify(data.name);
+        var JSON6 = JSON.stringify(data.email);
+        $("#info2").append(`<div class="contacto3"> ${JSON5} </div>`);
+        $("#info2").append(`<div class="contacto3"> ${JSON6} </div>`);
+    })
+})
+
+/*Doble click al contacto 3 */
+$("#info2").one("dblclick", function () {
+    $(".contacto3").fadeOut();
+})
+
+/*Link al cuarto ID del JSON */
+const URLGET3 = "https://jsonplaceholder.typicode.com/users/4";
+
+/*Darle click al cuarto contacto */
+$("#info3").one("click", function () {
+    $.get(URLGET3, function (data, status) {
+        console.log(data);
+        console.log(status);
+        var JSON7 = JSON.stringify(data.name);
+        var JSON8 = JSON.stringify(data.email);
+        $("#info3").append(`<div class="contacto4"> ${JSON7} </div>`);
+        $("#info3").append(`<div class="contacto4"> ${JSON8} </div>`);
+    })
+})
+
+/*Doble click al contacto 4 */
+$("#info3").one("dblclick", function () {
+    $(".contacto4").fadeOut();
+})
+
+
+
 
 
 
