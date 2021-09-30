@@ -15,6 +15,11 @@
 	cursor: pointer;
 }
 
+#encabezado h1 a {
+	text-decoration: none;
+	color: white;
+}
+
 #menu {
 	display: grid;
 	grid-template-columns: 180px 180px 180px 180px 180px;
@@ -38,8 +43,8 @@
 }
 
 #menu h5:hover {
-	color: #0F0194;
 	cursor: pointer;
+	font-size: 21px;
 }
 
 /* Termina el menu ----------*/
@@ -61,7 +66,7 @@
 
 .imagen {
 	height: 471px;
-	width: 1000px;
+	width: 820px;
 	border-style: solid;
 	border-color: #FC2525;
 }
@@ -156,14 +161,16 @@
 
 .fotos {
 	display: grid;
-	grid-template-columns: 340px 340px 340px 340px;
+	grid-template-columns: 310px 310px 310px 310px;
 	padding: 10px;
+	justify-content: center;
 }
 
 #fotos1 {
 	display: grid;
-	grid-template-columns: 340px 340px 340px 340px;
+	grid-template-columns: 310px 310px 310px 310px;
 	padding: 10px;
+	justify-content: center;
 }
 
 #fotos1 h3{
@@ -173,8 +180,9 @@
 
 #fotos2 {
 	display: grid;
-	grid-template-columns: 340px 340px 340px 340px;
+	grid-template-columns: 310px 310px 310px 310px;
 	padding: 10px;
+	justify-content: center;
 }
 
 #fotos2 h3 {
@@ -198,6 +206,7 @@
 
 .camisetas__foto:hover {
 	opacity: 0.5;
+	cursor: pointer;
 }
 
 .form {
@@ -286,16 +295,27 @@
 	display: grid;
 	grid-template-columns: 180px 180px 180px;
 	justify-content: center;
+	text-decoration: none;
+}
+
+.orden a {
+	text-decoration: none;
 }
 
 .pie li {
+	list-style: none;
+}
+
+.pie li a{
 	display: flex;
 	flex-direction: row;
 	color: white;
 	font-family: 'Space Grotesk', sans-serif;
+	text-decoration: none;
 }
 
-.pie li:hover {
+
+.pie li a:hover {
 	color: #FC2525;
 	cursor: pointer;
 }
@@ -321,6 +341,11 @@
 	cursor: pointer;
 }
 
+.encabezado2 h1 a {
+	text-decoration: none;
+	color: #FC2525;
+}
+
 .menu2 {
 	display: grid;
 	grid-template-columns: 180px 180px 180px 180px 180px;
@@ -340,8 +365,8 @@
 }
 
 .menu2 li a h5:hover {
-	color: #0F0194;
 	cursor: pointer;
+	font-size: 21px;
 }
 
 .retro {
@@ -372,4 +397,18 @@
 
 .card {
 	box-shadow: 4px 4px 4px black;
+}
+
+.footer1 {
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FC2525;
+}
+
+.texto {
+	padding: 20px;
 }

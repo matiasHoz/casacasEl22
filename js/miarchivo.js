@@ -215,10 +215,6 @@ $(".camisetas3").prepend(`<h2> ¿Qué hacemos? </h2>
                          <p id="descrip"> Somos un sitio dedicado a la venta de camisetas. Tenemos desde camisetas clásicas hasta lo último
                          en actualidad. Cada vez sumamos más ligas a nuestro stock. </p>`);
 
-/* Nuevas opciones al footer */
-$(".pie .orden").append(`<li> Trabaja con nosotros </li>
-                         <li> Contacto </li>
-                         <li> Términos y condiciones </li>`);
 
 /* Nuevo formulario */
 $("main").append(`<h2 id="registro">REGISTRATE</h2>
@@ -349,12 +345,6 @@ $(".form").submit("submit", function(e) {
     alert("Los datos se han guardado.");
 })
 
-/*Click en el botón "Enviar" */
-$(".submit").one("click", function() {
-    $(".form").append(`<p> ¡Gracias por registrarte! </p>`);
-})
-
-
 /*Click en el botón "Aviso" */
 $("#boton").one("click", function () {
     $("#boton").append(`<p id="aviso"> El stock se actualiza cada semana </p>`);
@@ -446,6 +436,33 @@ $("#info3").one("click", function () {
 $("#info3").one("dblclick", function () {
     $(".contacto4").fadeOut();
 })
+
+/*Desafío de enviar datos al API */
+/*URL del API */
+const APIURL = 'https://jsonplaceholder.typicode.com/posts';
+
+/*Aclaramos la información a enviar */
+const infoPost =  { nombre: "Matias", profesion: "Estudiante" }
+
+/*Agregamos evento al boton "enviar" del formulario */
+$(".submit").click(() => { 
+        $.ajax({
+            method: "POST",
+            url:  APIURL,
+            data: infoPost,
+            success: function(respuesta){
+                $(".form").append(`<p id="gracias"> ¡Gracias por registrarte ${respuesta.nombre}! </p>`);;
+            }
+        });
+    });
+
+
+
+
+
+
+
+
 
 
 

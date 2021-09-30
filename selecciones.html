@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 	<title>Selecciones</title>
 </head>
 <body class="body2">
 <header>
 <!-- Menu ------------------->
 <section class="encabezado2">
-<h1>Casacas "El 22"</h1>
+<h1><a href="index.html">Casacas "El 22"</a></h1>
 
 	<ul class="menu2">
 		<li><a href="retro.html"><h5>RETRO</h5></a></li>
@@ -33,7 +34,7 @@
 
 <section class="retro">
 <div class="card" style="width: 18rem;">
-  <img src="img/italia.jpg" class="card-img-top" alt="...">
+  <div id="selec1"><img src="img/italia.jpg" class="card-img-top" alt="Italia"></div>
   <div class="card-body">
   	<h3>ITALIA</h3>
     <p class="card-text">Colección de Puma.</p>
@@ -41,7 +42,7 @@
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="img/alemania.jpg" class="card-img-top" alt="...">
+  <div id="selec2"><img src="img/alemania.jpg" class="card-img-top" alt="Alemania"></div>
   <div class="card-body">
   	<h3>ALEMANIA</h3>
     <p class="card-text">Colección de Adidas.</p>
@@ -49,7 +50,7 @@
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="img/belgica.jpg" class="card-img-top" alt="...">
+  <div id="selec3"><img src="img/belgica.jpg" class="card-img-top" alt="Belgica"></div>
   <div class="card-body">
   	<h3>BÉLGICA</h3>
     <p class="card-text">Colección de Adidas.</p>
@@ -57,7 +58,7 @@
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="img/holanda.jpg" class="card-img-top" alt="...">
+  <div id="selec4"><img src="img/holanda.jpg" class="card-img-top" alt="Holanda"></div>
   <div class="card-body">
   	<h3>HOLANDA</h3>
     <p class="card-text">Colección de Nike.</p>
@@ -70,7 +71,7 @@
 
 <section class="retro">
 <div class="card" style="width: 18rem;">
-  <img src="img/argentina.jpg" class="card-img-top" alt="...">
+  <div id="selec5"><img src="img/argentina.jpg" class="card-img-top" alt="Argentina"></div>
   <div class="card-body">
     <h3>ARGENTINA</h3>
     <p class="card-text">Colección de Adidas.</p>
@@ -78,7 +79,7 @@
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="img/brasil.jpg" class="card-img-top" alt="...">
+  <div id="selec6"><img src="img/brasil.jpg" class="card-img-top" alt="Brasil"></div>
   <div class="card-body">
     <h3>BRASIL</h3>
     <p class="card-text">Colección de Nike.</p>
@@ -86,7 +87,7 @@
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="img/colombia.jpg" class="card-img-top" alt="...">
+  <div id="selec7"><img src="img/colombia.jpg" class="card-img-top" alt="Colombia"></div>
   <div class="card-body">
     <h3>COLOMBIA</h3>
     <p class="card-text">Colección de Adidas.</p>
@@ -94,7 +95,7 @@
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="img/uruguay.jpg" class="card-img-top" alt="...">
+  <div id="selec8"><img src="img/uruguay.jpg" class="card-img-top" alt="Uruguay"></div>
   <div class="card-body">
     <h3>URUGUAY</h3>
     <p class="card-text">Colección de Puma.</p>
@@ -107,11 +108,13 @@
 
 <footer class="pie">
   <ul class="orden">
-    <li>Política de cookies</li>
-    <li>Conócenos</li>
-    <li>Política de privacidad</li>
+    <li><a href="cookies.html">Política de cookies</a></li>
+    <li><a href="conocenos.html">Conócenos</a></li>
+    <li><a href="privacidad.html">Política de privacidad</a></li>
   </ul>
 </footer>
 
+<script src="js/archivoSelecciones.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 </body>
 </html>
