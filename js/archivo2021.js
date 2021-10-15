@@ -103,3 +103,107 @@ $("#2021_15").on("click", function() {
 $("#2021_16").on("click", function() {
 	alert("La camiseta de " + nueva16.nombre + " " + "cuesta " + "$" + nueva16.precio);
 })
+
+
+/*Compras */
+/*Darle click a comprar la camiseta del Inter */
+$("#nuevo1").on("click", function () {
+    alert("Agregaste la camiseta del " + nueva1.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva1.nombre} $${nueva1.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de la Juventus */
+$("#nuevo2").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva2.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva2.nombre} $${nueva2.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Napoli */
+$("#nuevo3").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva3.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva3.nombre} $${nueva3.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Roma */
+$("#nuevo4").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva4.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva4.nombre} $${nueva4.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Chelsea */
+$("#nuevo5").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva5.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva5.nombre} $${nueva5.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Manchester United */
+$("#nuevo6").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva6.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva6.nombre} $${nueva6.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Manchester City */
+$("#nuevo7").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva7.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva7.nombre} $${nueva7.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Arsenal */
+$("#nuevo8").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva8.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva8.nombre} $${nueva8.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Sevilla */
+$("#nuevo9").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva9.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva9.nombre} $${nueva9.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Barcelona */
+$("#nuevo10").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva10.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva10.nombre} $${nueva10.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Real Madrid */
+$("#nuevo11").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva11.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva11.nombre} $${nueva11.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Atletico Madrid */
+$("#nuevo12").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva12.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva12.nombre} $${nueva12.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de River Plate */
+$("#nuevo13").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva13.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva13.nombre} $${nueva13.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Boca */
+$("#nuevo14").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva14.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva14.nombre} $${nueva14.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Racing */
+$("#nuevo15").on("click", function() {
+    alert("Agregaste la camiseta de " + nueva15.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva15.nombre} $${nueva15.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de San Lorenzo */
+$("#nuevo16").on("click", function() {
+    alert("Agregaste la camiseta del " + nueva16.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${nueva16.nombre} $${nueva16.precio}</p>`);
+})
+
+/*Darle click a Limpiar */
+$("#limpiar").on("click", function() {
+    let borrar = document.getElementById("resumen");
+    borrar.parentNode.removeChild(borrar);
+})

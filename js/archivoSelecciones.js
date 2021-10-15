@@ -55,3 +55,58 @@ $("#selec7").on("click", function() {
 $("#selec8").on("click", function() {
 	alert("La camiseta de " + seleccion8.nombre + " " + "cuesta " + "$" + seleccion8.precio);
 })
+
+/*Compras */
+/*Darle click a comprar la camiseta de Italia */
+$("#pais1").on("click", function () {
+    alert("Agregaste la camiseta de " + seleccion1.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion1.nombre} $${seleccion1.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Alemania */
+$("#pais2").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion2.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion2.nombre} $${seleccion2.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Belgica */
+$("#pais3").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion3.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion3.nombre} $${seleccion3.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Holanda */
+$("#pais4").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion4.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion4.nombre} $${seleccion4.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Argentina */
+$("#pais5").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion5.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion5.nombre} $${seleccion5.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Brasil */
+$("#pais6").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion6.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion6.nombre} $${seleccion6.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Colombia */
+$("#pais7").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion7.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion7.nombre} $${seleccion7.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Uruguay */
+$("#pais8").on("click", function() {
+    alert("Agregaste la camiseta de " + seleccion8.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${seleccion8.nombre} $${seleccion8.precio}</p>`);
+})
+
+/*Darle click a Limpiar */
+$("#limpiar").on("click", function() {
+    let borrar = document.getElementById("resumen");
+    borrar.parentNode.removeChild(borrar);
+})

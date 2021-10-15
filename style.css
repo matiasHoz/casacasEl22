@@ -50,6 +50,7 @@
 /* Termina el menu ----------*/
 /* Comienza el contenido principal --------*/
 
+/*Descripcion */
 #descrip {
 	text-align: center;
 	font-size: 18px;
@@ -64,6 +65,7 @@
 	flex-direction: row;
 }
 
+/*Imagen de presentacion del sitio */
 .imagen {
 	height: 471px;
 	width: 820px;
@@ -79,6 +81,7 @@
 	padding: 15px;
 }
 
+/*Galeria de camisetas con sus respectivas imagenes ----------------------*/
 .camisetas h2 {
 	margin: 20px;
 	font-family: 'Righteous', cursive;
@@ -209,6 +212,288 @@
 	cursor: pointer;
 }
 
+#camisetas__foto1 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto1:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto2 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto2:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto3 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto3:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto4 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto4:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto5 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto5:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto6 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto6:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto7 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto7:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto8 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto8:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto9 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto9:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto10 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto10:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto11 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto11:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto12 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto12:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto13 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto13:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto14 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto14:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto15 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto15:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto16 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto16:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto17 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto17:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto18 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto18:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto19 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto19:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#camisetas__foto20 {
+	height: 340px;
+	width: 280px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 4px 4px 4px black;
+	margin: 0 auto;
+}
+
+#camisetas__foto20:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/*Formulario ---------------------*/
+
 .form {
 	width: 80%;
 	margin: auto;
@@ -237,13 +522,18 @@
 	background-color: #CD0808;
 }
 
+/*Aviso */
+
 #boton {
 	margin: 10px;
 	color: white;
 	background-color: #FC2525;
 	font-family: 'Righteous', cursive;
 	padding: 10px;
+	box-shadow: 2px 2px 2px black;
 }
+
+/* Informacion sobre contactos -------------------*/
 
 #info {
 	margin: 10px;
@@ -251,6 +541,7 @@
 	background-color: #FC2525;
 	font-family: 'Righteous', cursive;
 	padding: 10px;
+	box-shadow: 2px 2px 2px black;
 }
 
 #info p {
@@ -264,6 +555,7 @@
 	background-color: #FC2525;
 	font-family: 'Righteous', cursive;
 	padding: 10px;
+	box-shadow: 2px 2px 2px black;
 }
 
 #info2 {
@@ -272,6 +564,7 @@
 	background-color: #FC2525;
 	font-family: 'Righteous', cursive;
 	padding: 10px;
+	box-shadow: 2px 2px 2px black;
 }
 
 #info3 {
@@ -280,9 +573,427 @@
 	background-color: #FC2525;
 	font-family: 'Righteous', cursive;
 	padding: 10px;
+	box-shadow: 2px 2px 2px black;
 }
 
+/* Botones para comprar -----------------------*/
+
+#comprar1 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar1:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar2 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar2:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar3 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar3:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar4 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar4:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar5 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar5:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar6 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar6:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar7 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar7:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar8 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar8:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar9 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar9:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar10 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar10:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar11 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar11:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar12 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar12:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar13 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar13:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar14 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar14:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar15 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar15:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar16 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar16:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar17 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar17:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar18 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar18:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar19 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar19:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#comprar20 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+}
+
+#comprar20:hover {
+	color: black;
+	cursor: pointer;
+}
+
+/*Carrito de compras ---------------------*/
+
+
+#carrito {
+	display: grid;
+	grid-template-columns: 50px 30px 1250px;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: black;
+    border: 2px solid #FC2525;
+    z-index: 1;
+}
+
+#mensaje {
+	color: white;
+	font-family: 'Righteous', cursive;
+}
+
+.carro {
+	width: 30px;
+	height: 30px;
+}
+
+.resumen {
+	color: white;
+}
+
+#resumen {
+	color: white;
+	margin: 10px;
+}
+
+#limpiar {
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+	position: static;
+}
+
+#limpiar:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#total {
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+	position: static;
+}
+
+#total:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+
 /* Termina el contenido principal --------*/
+/* Empieza el footer ---------------------*/
 
 .pie {
 	background-color: black;
@@ -319,6 +1030,8 @@
 	color: #FC2525;
 	cursor: pointer;
 }
+
+/*Página de Retro --------------------------------*/
 
 .body2 {
 	background-color: #FC2525;
@@ -373,6 +1086,223 @@
 	display: grid;
 	grid-template-columns: 320px 320px 320px 320px;
 	justify-content: center;
+	z-index: -1;
+}
+
+#retro1 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro1:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro2 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro2:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro3 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro3:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro4 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro4:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro5 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro5:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro6 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro6:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro7 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro7:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro8 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro8:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro9 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro9:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro10 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro10:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro11 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro11:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#retro12 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#retro12:hover {
+	color: black;
+	cursor: pointer;
 }
 
 .tituloretro {
@@ -389,6 +1319,7 @@
 
 .card-img-top {
 	height: 200px;
+	position: static;
 }
 
 .card-img-top:hover {
@@ -411,4 +1342,593 @@
 
 .texto {
 	padding: 20px;
+}
+
+/*Pagina de novedades 2021 --------------------------*/
+
+#nuevo1 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo1:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo2 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo2:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo3 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo3:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo4 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo4:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo5 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo5:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo6 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo6:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo7 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo7:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo8 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo8:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo9 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo9:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo10 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo10:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo11 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo11:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo12 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo12:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo13 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo13:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo14 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo14:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo15 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo15:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#nuevo16 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#nuevo16:hover {
+	color: black;
+	cursor: pointer;
+}
+
+/*Pagina de Selecciones Nacionales ------------------------------------*/
+
+#pais1 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais1:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais2 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais2:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais3 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais3:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais4 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais4:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais5 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais5:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais6 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais6:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais7 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais7:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#pais8 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#pais8:hover {
+	color: black;
+	cursor: pointer;
+}
+
+/*Pagina del futbol del Ascenso ----------------------*/
+
+#team1 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team1:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team2 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team2:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team3 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team3:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team4 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team4:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team5 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team5:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team6 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team6:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team7 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team7:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#team8 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #BCBCBC;
+	border-radius: 10px;
+	background-color: #FC2525;
+	width: 150px;
+	box-shadow: 2px 2px 2px black;
+	font-family: 'Righteous', cursive;
+}
+
+#team8:hover {
+	color: black;
+	cursor: pointer;
 }

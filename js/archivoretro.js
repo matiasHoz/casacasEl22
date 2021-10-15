@@ -79,3 +79,83 @@ $("#retros11").on("click", function() {
 $("#retros12").on("click", function() {
 	alert("La camiseta de " + retro12.nombre + " " + "cuesta " + "$" + retro12.precio);
 })
+
+
+/*Compras */
+/*Darle click a comprar la camiseta de la Fiorentina */
+$("#retro1").on("click", function () {
+    alert("Agregaste la camiseta del " + retro1.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro1.nombre} $${retro1.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de la Napoli */
+$("#retro2").on("click", function() {
+    alert("Agregaste la camiseta del " + retro2.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro2.nombre} $${retro2.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Inter */
+$("#retro3").on("click", function() {
+    alert("Agregaste la camiseta del " + retro3.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro3.nombre} $${retro3.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Juventus */
+$("#retro4").on("click", function() {
+    alert("Aregaste la camiseta del " + retro4.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro4.nombre} $${retro4.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Chelsea */
+$("#retro5").on("click", function() {
+    alert("Agregaste la camiseta de " + retro5.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro5.nombre} $${retro5.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Manchester City */
+$("#retro6").on("click", function() {
+    alert("Agregaste la camiseta de " + retro6.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro6.nombre} $${retro6.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Arsenal */
+$("#retro7").on("click", function() {
+    alert("Agregaste la camiseta de " + retro7.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro7.nombre} $${retro7.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Manchester United */
+$("#retro8").on("click", function() {
+    alert("Agregaste la camiseta de " + retro8.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro8.nombre} $${retro8.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Boca */
+$("#retro9").on("click", function() {
+    alert("Agregaste la camiseta de la Selección " + retro9.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro9.nombre} $${retro9.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del River */
+$("#retro10").on("click", function() {
+    alert("Agregaste la camiseta del " + retro10.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro10.nombre} $${retro10.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Racing */
+$("#retro11").on("click", function() {
+    alert("Agregaste la camiseta del " + retro11.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro11.nombre} $${retro11.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Independiente */
+$("#retro12").on("click", function() {
+    alert("Agregaste la camiseta del " + retro12.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${retro12.nombre} $${retro12.precio}</p>`);
+})
+
+/*Darle click a Limpiar */
+$("#limpiar").on("click", function() {
+    let borrar = document.getElementById("resumen");
+    borrar.parentNode.removeChild(borrar);
+})

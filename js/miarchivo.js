@@ -167,31 +167,14 @@ function solicitarTalle() {
 	console.log("Talle: " + talleIngresado);
 }
 
-/*¿Es un antiguo cliente? ---------------------------*/
-function pregunta() {
-	let descuento = prompt("¿Alguna vez habías comprado en Casacas El 22?");
-	if(descuento == "Si"){
-		alert("Obtienes un descuento del 20% por haber comprado en este sitio.")
-	}
-	if(descuento == "No"){
-		alert("¡Entonces gracias por elegirnos!");
-	}
-	console.log("Descuento: " + descuento);
-}
-
 
 
 /* Llamado de las funciones -----------------------------*/
 solicitarNombre();
 solicitarTalle();
-pregunta();
-
 
 
 /* Agregar elementos al DOM con jQuery ------------------*/
-/* Nueva opcion al menu */
-$("#menu").prepend("<h5> PRE-VENTA </h5>");
-
 /* Nuevo botón de "Aviso" */
 $(".camisetas4").append(`<button id="boton"> AVISO </button>`);
 
@@ -220,7 +203,7 @@ $(".camisetas3").prepend(`<h2> ¿Qué hacemos? </h2>
 $("main").append(`<h2 id="registro">REGISTRATE</h2>
 <form class="form">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Dirección de e-mail</label>
+    <label for="exampleInputEmail1" id="emal" class="form-label">Dirección de e-mail</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">Nunca vamos a compartir tu e-mail con otros.</div>
   </div>
@@ -240,107 +223,107 @@ $("main").append(`<h2 id="registro">REGISTRATE</h2>
 
 /*Asociar eventos a los elementos -----------------------------*/
 /*Click en la camiseta del PSG */
-$("#remera1").on("click", function() {
+$("#camisetas__foto1").on("click", function() {
     alert("La camiseta del " + camiseta1.nombre + " " + "cuesta " + "$" + camiseta1.precio);
 })
 
 /*Click en la camiseta de la Juve */
-$("#remera2").on("click", function() {
+$("#camisetas__foto2").on("click", function() {
     alert("La camiseta del " + camiseta2.nombre + " " + "cuesta " + "$" + camiseta2.precio);
 })
 
 /*Click en la camiseta del Barcelona */
-$("#remera3").on("click", function () {
+$("#camisetas__foto3").on("click", function () {
     alert("La camiseta del " + camiseta3.nombre + " " + "cuesta " + "$" + camiseta3.precio);
 })
 
 /*Click en la camiseta del Atl Madrid */
-$("#remera4").on("click", function() {
+$("#camisetas__foto4").on("click", function() {
     alert("La camiseta del " + camiseta4.nombre + " " + "cuesta " + "$" + camiseta4.precio);
 })
 
 /*Click en la camiseta de River */
-$("#remera5").on("click", function() {
+$("#camisetas__foto5").on("click", function() {
     alert("La camiseta de " + camiseta5.nombre + " " + "cuesta " + "$" + camiseta5.precio);
 })
 
 /*Click en la camiseta de Boca */
-$("#remera6").on("click", function() {
+$("#camisetas__foto6").on("click", function() {
     alert("La camiseta de " + camiseta6.nombre + " " + "cuesta " + "$" + camiseta6.precio);
 })
 
 /*Click en la camiseta de Central */
-$("#remera7").on("click", function() {
+$("#camisetas__foto7").on("click", function() {
     alert("La camiseta de " + camiseta7.nombre + " " + "cuesta " + "$" + camiseta7.precio);
 })
 
 /*Click en la camiseta de Racing */
-$("#remera8").on("click", function() {
+$("#camisetas__foto8").on("click", function() {
     alert("La camiseta de " + camiseta8.nombre + " " + "cuesta " + "$" + camiseta8.precio);
 })
 
 /*Click en la camiseta de la Selección Argentina */
-$("#remera9").on("click", function() {
+$("#camisetas__foto9").on("click", function() {
     alert("La camiseta de " + camiseta9.nombre + " " + "cuesta " + "$" + camiseta9.precio);
 })
 
 /*Click en la camiseta del Palmeiras */
-$("#remera10").on("click", function() {
+$("#camisetas__foto10").on("click", function() {
     alert("La camiseta del " + camiseta10.nombre + " " + "cuesta " + "$" + camiseta10.precio);
 })
 
 /*Click en la camiseta del Ajax */
-$("#remera11").on("click", function () {
+$("#camisetas__foto11").on("click", function () {
     alert("La camiseta del " + camiseta11.nombre + " " + "cuesta " + "$" + camiseta11.precio);
 })
 
 /*Click en la camiseta del Dortmund */
-$("#remera12").on("click", function () {
+$("#camisetas__foto12").on("click", function () {
     alert("La camiseta del " + camiseta12.nombre + " " + "cuesta " + "$" + camiseta12.precio);
 })
 
 /*Click en la camiseta del Real Madrid */
-$("#remera13").on("click", function () {
+$("#camisetas__foto13").on("click", function () {
     alert("La camiseta del " + camiseta13.nombre + " " + "cuesta " + "$" + camiseta13.precio);
 })
 
 /*Click en la camiseta del Chelsea */
-$("#remera14").on("click", function () {
+$("#camisetas__foto14").on("click", function () {
     alert("La camiseta del " + camiseta14.nombre + " " + "cuesta " + "$" + camiseta14.precio);
 })
 
 /*Click en la camiseta del Sassuolo */
-$("#remera15").on("click", function () {
+$("#camisetas__foto15").on("click", function () {
     alert("La camiseta del " + camiseta15.nombre + " " + "cuesta " + "$" + camiseta15.precio);
 })
 
 /*Click en la camiseta del City */
-$("#remera16").on("click", function () {
+$("#camisetas__foto16").on("click", function () {
     alert("La camiseta del " + camiseta16.nombre + " " + "cuesta " + "$" + camiseta16.precio);
 })
 
 /*Click en la camiseta de Gremio */
-$("#remera17").on("click", function () {
+$("#camisetas__foto17").on("click", function () {
     alert("La camiseta de " + camiseta17.nombre + " " + "cuesta " + "$" + camiseta17.precio);
 })
 
 /*Click en la camiseta de Peñarol */
-$("#remera18").on("click", function () {
+$("#camisetas__foto18").on("click", function () {
     alert("La camiseta de " + camiseta18.nombre + " " + "cuesta " + "$" + camiseta18.precio);
 })
 
 /*Click en la camiseta de Brasil */
-$("#remera19").on("click", function () {
+$("#camisetas__foto19").on("click", function () {
     alert("La camiseta de " + camiseta19.nombre + " " + "cuesta " + "$" + camiseta19.precio);
 })
 
 /*Click en la camiseta del Inter */
-$("#remera20").on("click", function () {
+$("#camisetas__foto20").on("click", function () {
     alert("La camiseta del " + camiseta20.nombre + " " + "cuesta " + "$" + camiseta20.precio);
 })
 
 /*Envio de formulario */
-$(".form").submit("submit", function(e) {
+let mails = $(".form").submit("submit", function(e) {
     e.preventDefault();
     alert("Los datos se han guardado.");
 })
@@ -353,6 +336,133 @@ $("#boton").one("click", function () {
 /*Doble click para desaparecer */
 $("#boton").one("dblclick", function () {
     $("#aviso").fadeOut();
+})
+
+/*Darle click a comprar la camiseta del PSG */
+$("#comprar1").on("click", function () {
+    alert("Agregaste la camiseta del " + camiseta1.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta1.nombre} $${camiseta1.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de la Juventus */
+$("#comprar2").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta2.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta2.nombre} $${camiseta2.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Barcelona */
+$("#comprar3").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta3.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta3.nombre} $${camiseta3.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Atletico Madrid */
+$("#comprar4").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta4.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta4.nombre} $${camiseta4.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de River */
+$("#comprar5").on("click", function() {
+    alert("Agregaste la camiseta de " + camiseta5.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta5.nombre} $${camiseta5.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Boca */
+$("#comprar6").on("click", function() {
+    alert("Agregaste la camiseta de " + camiseta6.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta6.nombre} $${camiseta6.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Rosario Central */
+$("#comprar7").on("click", function() {
+    alert("Agregaste la camiseta de " + camiseta7.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta7.nombre} $${camiseta7.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Racing */
+$("#comprar8").on("click", function() {
+    alert("Agregaste la camiseta de " + camiseta8.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta8.nombre} $${camiseta8.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de la Selección Argentina */
+$("#comprar9").on("click", function() {
+    alert("Agregaste la camiseta de la Selección " + camiseta9.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta9.nombre} $${camiseta9.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Palmeiras */
+$("#comprar10").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta10.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta10.nombre} $${camiseta10.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Ajax */
+$("#comprar11").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta11.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta11.nombre} $${camiseta11.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Dortmund */
+$("#comprar12").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta12.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta12.nombre} $${camiseta12.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Real Madrid */
+$("#comprar13").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta13.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta13.nombre} $${camiseta13.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Chelsea */
+$("#comprar14").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta14.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta14.nombre} $${camiseta14.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Sassuolo */
+$("#comprar15").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta15.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta15.nombre} $${camiseta15.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Manchester City */
+$("#comprar16").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta16.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta16.nombre} $${camiseta16.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Gremio */
+$("#comprar17").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta17.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta17.nombre} $${camiseta17.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Peñarol */
+$("#comprar18").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta18.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta18.nombre} $${camiseta18.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Brasil */
+$("#comprar19").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta19.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta19.nombre} $${camiseta19.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Inter */
+$("#comprar20").on("click", function() {
+    alert("Agregaste la camiseta del " + camiseta20.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${camiseta20.nombre} $${camiseta20.precio}</p>`);
+})
+
+
+/*Darle click a Limpiar */
+$("#limpiar").on("click", function() {
+    let borrar = document.getElementById("resumen");
+    borrar.parentNode.removeChild(borrar);
 })
 
 
@@ -446,18 +556,8 @@ const infoPost =  { nombre: "Matias", profesion: "Estudiante" }
 
 /*Agregamos evento al boton "enviar" del formulario */
 $(".submit").click(() => { 
-        $.ajax({
-            method: "POST",
-            url:  APIURL,
-            data: infoPost,
-            success: function(respuesta){
-                $(".form").append(`<p id="gracias"> ¡Gracias por registrarte ${respuesta.nombre}! </p>`);;
-            }
-        });
-    });
-
-
-
+    $(".form").append(`<p id="gracias"> ¡Gracias por registrarte!</p>`);
+})
 
 
 

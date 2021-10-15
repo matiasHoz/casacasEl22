@@ -55,3 +55,59 @@ $("#equipo7").on("click", function() {
 $("#equipo8").on("click", function() {
 	alert("La camiseta de " + ascenso8.nombre + " " + "cuesta " + "$" + ascenso8.precio);
 })
+
+
+/* Compras */
+/*Darle click a comprar la camiseta de Tigre */
+$("#team1").on("click", function () {
+    alert("Agregaste la camiseta de " + ascenso1.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso1.nombre} $${ascenso1.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Belgrano */
+$("#team2").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso2.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso2.nombre} $${ascenso2.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta del Chacarita */
+$("#team3").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso3.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso3.nombre} $${ascenso3.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Atlanta */
+$("#team4").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso4.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso4.nombre} $${ascenso4.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Comuniaciones */
+$("#team5").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso5.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso5.nombre} $${ascenso5.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Flandria */
+$("#team6").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso6.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso6.nombre} $${ascenso6.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Sacachispas */
+$("#team7").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso7.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso7.nombre} $${ascenso7.precio}</p>`);
+})
+
+/*Darle click a comprar la camiseta de Cañuelas */
+$("#team8").on("click", function() {
+    alert("Agregaste la camiseta de " + ascenso8.nombre + " al carrito.");
+    $("#total").append(`<p id="resumen"> ${ascenso8.nombre} $${ascenso8.precio}</p>`);
+})
+
+/*Darle click a Limpiar */
+$("#limpiar").on("click", function() {
+    let borrar = document.getElementById("resumen");
+    borrar.parentNode.removeChild(borrar);
+})
