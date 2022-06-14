@@ -178,7 +178,7 @@ function solicitarNombre() {
   console.log("Nombre: " + nombreIngresado);
 }
 
-/*Solicitar talle del cliente -----------------------*/
+/*Solicitar talle del cliente -----------------------
 function solicitarTalle() {
   let talleIngresado = prompt("Ingrese su talle");
   alert(
@@ -188,10 +188,13 @@ function solicitarTalle() {
   );
   console.log("Talle: " + talleIngresado);
 }
+*/
 
 /* Llamado de las funciones -----------------------------*/
 solicitarNombre();
+/*
 solicitarTalle();
+*/
 
 /* Agregar elementos al DOM con jQuery ------------------*/
 /* Nuevo botón de "Aviso" */
