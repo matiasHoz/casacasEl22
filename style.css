@@ -1981,4 +1981,56 @@
     width: 100vw;
     height: 50%;
   }
+
+  .quehace {
+    text-align: center;
+  }
+
+  #fotos1 {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-gap: 4rem;
+    position: relative;
+    right: 1.5rem;
+  }
+
+  #fotos1 h3 {
+    font-size: 1rem;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  #fotos1 h4 {
+    font-size: 1rem;
+    width: 5.5rem;
+    position: relative;
+  }
+
+  #camisetas__foto1,
+  #camisetas__foto2,
+  #camisetas__foto3,
+  #camisetas__foto4 {
+    width: 5.5rem;
+    height: 7rem;
+  }
+
+  #remera1 h3 {
+    margin-left: 1.8rem;
+  }
+
+  #remera2 h3 {
+    margin-left: 0.8rem;
+  }
+
+  #remera3 h3 {
+    margin-left: 0.5rem;
+  }
+
+  #info,
+  #info1,
+  #info2,
+  #info3 {
+    display: none;
+  }
 }
