@@ -1929,16 +1929,19 @@
     margin-left: 5rem;
   }
 
-  #encabezado {
+  #encabezado,
+  .encabezado2 {
     display: flex;
     flex-direction: column;
   }
 
-  #menu a h5 {
+  #menu a h5,
+  .menu2 a h5 {
     font-size: 0.8rem;
   }
 
-  #menu {
+  #menu,
+  .menu2 {
     display: grid;
     grid-template-columns: 40px 40px 40px 40px;
     grid-gap: 3rem;
@@ -2004,6 +2007,25 @@
     grid-gap: 4rem;
     position: relative;
     right: 1.5rem;
+  }
+
+  .retro {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    margin-left: 3.9rem;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .retro h3 {
+    text-align: center;
+  }
+
+  .tituloretro {
+    text-align: center;
   }
 
   #fotos1 h3,
