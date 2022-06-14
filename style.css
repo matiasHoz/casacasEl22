@@ -1986,7 +1986,19 @@
     text-align: center;
   }
 
-  #fotos1 {
+  #europa1,
+  .camisetas1 h2,
+  .camisetas2 h2,
+  .camisetas4 h2,
+  .camisetas5 h2,
+  #registro {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #fotos1,
+  #fotos2,
+  .fotos {
     display: grid;
     grid-template-columns: 40px 40px 40px 40px;
     grid-gap: 4rem;
@@ -1994,14 +2006,35 @@
     right: 1.5rem;
   }
 
-  #fotos1 h3 {
+  #fotos1 h3,
+  #fotos2 h3,
+  .fotos h3 {
     font-size: 1rem;
     white-space: nowrap;
     text-align: center;
     margin-top: 0.5rem;
   }
 
-  #fotos1 h4 {
+  #fotos1 h4,
+  #fotos2 h4,
+  .fotos h4 {
+    font-size: 1rem;
+    width: 5.5rem;
+    position: relative;
+  }
+
+  #comprar9,
+  #comprar10,
+  #comprar11,
+  #comprar12,
+  #comprar13,
+  #comprar14,
+  #comprar15,
+  #comprar16,
+  #comprar17,
+  #comprar18,
+  #comprar19,
+  #comprar20 {
     font-size: 1rem;
     width: 5.5rem;
     position: relative;
@@ -2010,7 +2043,23 @@
   #camisetas__foto1,
   #camisetas__foto2,
   #camisetas__foto3,
-  #camisetas__foto4 {
+  #camisetas__foto4,
+  #camisetas__foto5,
+  #camisetas__foto6,
+  #camisetas__foto7,
+  #camisetas__foto8,
+  #camisetas__foto9,
+  #camisetas__foto10,
+  #camisetas__foto11,
+  #camisetas__foto12,
+  #camisetas__foto13,
+  #camisetas__foto14,
+  #camisetas__foto15,
+  #camisetas__foto16,
+  #camisetas__foto17,
+  #camisetas__foto18,
+  #camisetas__foto19,
+  #camisetas__foto20 {
     width: 5.5rem;
     height: 7rem;
   }
@@ -2032,5 +2081,78 @@
   #info2,
   #info3 {
     display: none;
+  }
+
+  #remera5 h3 {
+    margin-left: 1.6rem;
+  }
+
+  #remera6 h3 {
+    margin-left: 1.6rem;
+  }
+
+  #remera7 h3 {
+    margin-left: 0.5rem;
+  }
+
+  #remera8 h3 {
+    margin-left: 1.3rem;
+  }
+
+  #remera9 h3 {
+    margin-left: 0.4rem;
+  }
+
+  #remera10 h3 {
+    margin-left: 0.5rem;
+  }
+
+  #remera11 h3 {
+    margin-left: 1.7rem;
+  }
+
+  #remera14 h3 {
+    margin-left: 1rem;
+  }
+
+  #remera15 h3 {
+    margin-left: 0.8rem;
+  }
+
+  #remera16 h3 {
+    margin-left: 0.7rem;
+  }
+
+  #remera17 h3 {
+    margin-left: 1.2rem;
+  }
+
+  #remera18 h3 {
+    margin-left: 1rem;
+  }
+
+  #remera19 h3 {
+    margin-left: 1.3rem;
+  }
+
+  #remera20 h3 {
+    margin-left: 1.6rem;
+  }
+
+  .orden {
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    grid-gap: 6.5rem;
+    margin-right: 6.5rem;
+  }
+
+  .orden li a {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .cono {
+    position: relative;
+    right: 0.6rem;
   }
 }
