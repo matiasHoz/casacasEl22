@@ -1996,17 +1996,15 @@
   .camisetas5 h2,
   #registro {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   #fotos1,
   #fotos2,
   .fotos {
-    display: grid;
-    grid-template-columns: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
     grid-gap: 4rem;
-    position: relative;
-    right: 1.5rem;
   }
 
   .retro {
@@ -2031,18 +2029,18 @@
   #fotos1 h3,
   #fotos2 h3,
   .fotos h3 {
-    font-size: 1rem;
+    font-size: 1.8rem;
     white-space: nowrap;
     text-align: center;
     margin-top: 0.5rem;
+    justify-content: center;
   }
 
   #fotos1 h4,
   #fotos2 h4,
   .fotos h4 {
-    font-size: 1rem;
-    width: 5.5rem;
-    position: relative;
+    font-size: 1.7rem;
+    width: 10rem;
   }
 
   #comprar9,
@@ -2057,8 +2055,8 @@
   #comprar18,
   #comprar19,
   #comprar20 {
-    font-size: 1rem;
-    width: 5.5rem;
+    font-size: 1.7rem;
+    width: 10rem;
     position: relative;
   }
 
@@ -2082,20 +2080,7 @@
   #camisetas__foto18,
   #camisetas__foto19,
   #camisetas__foto20 {
-    width: 5.5rem;
-    height: 7rem;
-  }
-
-  #remera1 h3 {
-    margin-left: 1.8rem;
-  }
-
-  #remera2 h3 {
-    margin-left: 0.8rem;
-  }
-
-  #remera3 h3 {
-    margin-left: 0.5rem;
+    margin-left: 2.4rem;
   }
 
   #info,
@@ -2103,62 +2088,6 @@
   #info2,
   #info3 {
     display: none;
-  }
-
-  #remera5 h3 {
-    margin-left: 1.6rem;
-  }
-
-  #remera6 h3 {
-    margin-left: 1.6rem;
-  }
-
-  #remera7 h3 {
-    margin-left: 0.5rem;
-  }
-
-  #remera8 h3 {
-    margin-left: 1.3rem;
-  }
-
-  #remera9 h3 {
-    margin-left: 0.4rem;
-  }
-
-  #remera10 h3 {
-    margin-left: 0.5rem;
-  }
-
-  #remera11 h3 {
-    margin-left: 1.7rem;
-  }
-
-  #remera14 h3 {
-    margin-left: 1rem;
-  }
-
-  #remera15 h3 {
-    margin-left: 0.8rem;
-  }
-
-  #remera16 h3 {
-    margin-left: 0.7rem;
-  }
-
-  #remera17 h3 {
-    margin-left: 1.2rem;
-  }
-
-  #remera18 h3 {
-    margin-left: 1rem;
-  }
-
-  #remera19 h3 {
-    margin-left: 1.3rem;
-  }
-
-  #remera20 h3 {
-    margin-left: 1.6rem;
   }
 
   .orden {
@@ -2176,5 +2105,29 @@
   .cono {
     position: relative;
     right: 0.6rem;
+  }
+
+  #remera12 h3 {
+    margin-left: 0.4rem;
+  }
+
+  #remera20 h3 {
+    margin-left: 0.4rem;
+  }
+
+  #remera2 h3 {
+    margin-left: 0.2rem;
+  }
+
+  #remera4 h3 {
+    margin-left: 0.2rem;
+  }
+
+  #remera5 h3 {
+    margin-left: 0.3rem;
+  }
+
+  #remera8 h3 {
+    margin-left: 0.2rem;
   }
 }
