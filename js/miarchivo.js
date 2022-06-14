@@ -341,13 +341,13 @@ $("#boton").one("dblclick", function () {
 /*Darle click a comprar la camiseta del PSG */
 $("#comprar1").on("click", function () {
     alert("Agregaste la camiseta del " + camiseta1.nombre + " al carrito.");
-    $("#total").append(`<p id="resumen"> ${camiseta1.nombre} $${camiseta1.precio}</p>`);
+    $("#total").append(`<p id="resumen"> ${camiseta1.nombre} $${camiseta1.precio}</p></div>`);
 })
 
 /*Darle click a comprar la camiseta de la Juventus */
 $("#comprar2").on("click", function() {
     alert("Agregaste la camiseta del " + camiseta2.nombre + " al carrito.");
-    $("#total").append(`<p id="resumen"> ${camiseta2.nombre} $${camiseta2.precio}</p>`);
+    $("#total").append(`<p id="resumen"> ${camiseta2.nombre} $${camiseta2.precio}</p></div>`);
 })
 
 /*Darle click a comprar la camiseta del Barcelona */
